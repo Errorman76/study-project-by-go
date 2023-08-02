@@ -1,5 +1,3 @@
-module myMain
+module my-go-app/example 
 
 go 1.20
-
-// replace hello => ./public

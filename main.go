@@ -18,5 +18,5 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	println(*account.Balance())
+	println(*account.Balance(), account.Owner())
 }
